@@ -12,7 +12,7 @@ import FeatureBox from '../components/FeatureBox';
 import { Link } from 'react-router-dom';
 
 // API base URL
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://trade-hub-mern.vercel.app';
 
 function Home() {
     // ============================================
