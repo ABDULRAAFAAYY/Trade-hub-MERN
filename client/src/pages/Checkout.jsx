@@ -11,7 +11,7 @@ import Footer from '../components/Footer';
 import { useCart } from '../context/CartContext';
 
 // API base URL
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://trade-hub-mern.vercel.app';
 
 function Checkout() {
     // ============================================
