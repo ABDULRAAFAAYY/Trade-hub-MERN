@@ -13,7 +13,7 @@ import ProductCard from '../components/ProductCard';
 import { useCart } from '../context/CartContext';
 
 // API base URL
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://trade-hub-mern.vercel.app';
 
 function ProductDetail() {
     // ============================================
