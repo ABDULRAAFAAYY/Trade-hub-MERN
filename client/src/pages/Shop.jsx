@@ -10,7 +10,7 @@ import Footer from '../components/Footer';
 import ProductCard from '../components/ProductCard';
 
 // API base URL
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://trade-hub-mern.vercel.app';
 
 function Shop() {
     // ============================================
