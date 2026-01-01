@@ -9,7 +9,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 // API base URL
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://trade-hub-mern.vercel.app';
 
 function Contact() {
     // ============================================
