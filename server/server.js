@@ -30,6 +30,18 @@ connectDB();
 // This allows the React frontend (running on different port) to access this API
 app.use(cors());
 
+// Configure CORS to allow requests from frontend (both local and deployed)
+const corsOptions = {
+    origin: [
+        'http://localhost:5173',           // Local Vite dev server
+        'http://localhost:3000',           // Alternative local port
+        'https://trade-hub-mern-kbmw.vercel.app',  // Deployed frontend
+    ],
+    credentials: true,
+    optionsSuccessStatus: 200
+};
+app.use(cors(corsOptions));
+
 // Parse incoming JSON requests
 // This middleware parses JSON payloads in request bodies
 app.use(express.json());
